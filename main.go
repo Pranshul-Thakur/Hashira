@@ -48,7 +48,7 @@ func lagrangeInterpolateAtZero(points []Share) *big.Int {
 
 func main() {
 	testFiles := []string{"shares1.json", "shares2.json"}
-	fmt.Println("--- Shamir's Secret Sharing Solver (Go Version) ---")
+	fmt.Println("--- Shamir's Secret Sharing Solver ---")
 
 	for _, filename := range testFiles {
 		fileBytes, err := os.ReadFile(filename)
